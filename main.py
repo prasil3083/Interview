@@ -7,7 +7,7 @@ from google.oauth2 import service_account
 app = FastAPI()
 
 # Initialize Firestore
-credentials = service_account.Credentials.from_service_account_file("boreal-rain-441609-q9-302220893b4c.json")
+credentials = service_account.Credentials.from_service_account_file("C:\Users\Home\Desktop\interview-441709-7aeaf52f9895.json")
 db = firestore.Client(credentials=credentials)
 
 # I couldn't find any relaible resource so iused chat gpt for this Initialization of firestore 
